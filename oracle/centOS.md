@@ -52,3 +52,11 @@ usermod -aG wheel username
 alternatives --install /usr/bin/java java /opt/jdk1.8.0_201/bin/java 2
 alternatives --config java
 ```
+
+# Add physical volume to LVM and extend logical volume
+```
+fdisk /dev/sdb
+pvcreate /dev/sdb1
+vgextend VG_OtherData /dev/sdb1
+lvextend -r -l +100%FREE /dev/VG_OtherData/var
+```
