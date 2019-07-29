@@ -29,3 +29,15 @@
  - [Oracle buffer cache content](sql/performance/bufferCacheContent.sql)
  - [Logical and physical reads and writes by v$segstat view](sql/perfrmance/segStat.sql)
  - [Check opened cursor count by sql_text](sql/performance/cursorCountBySql.sql)
+
+ ## Database link
+ - [Create database link](sql/dblink/createDbLinkBySID.sql)
+
+
+ ## Oracle Graphic tools
+ ```
+dbca - db create assistant
+dbua - db upgrade assistant
+netca - listener create assistant
+netmgr - nmanaging tnsnames.ora
+```
