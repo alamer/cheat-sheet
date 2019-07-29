@@ -1,0 +1,5 @@
+-- Move partiton
+ALTER TABLE <TABLE NAME to be moved>
+MOVE PARTITION <PARTITION NAME to be moved>  TABLESPACE <destination TABLESPACE NAME> COMPRESS;
+-- Move table
+ALTER TABLE <TABLE NAME to be moved> MOVE TABLESPACE <destination TABLESPACE NAME>

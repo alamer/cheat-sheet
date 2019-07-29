@@ -1,0 +1,1 @@
+ alter index <INDEX NAME> coalesce;
