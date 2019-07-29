@@ -11,3 +11,8 @@
 git config --global user.name "<username>"
 git config --global user.email "<email>"
 ```
+
+## Remove staged file
+```
+git rm -r --cached <filename>
+```
