@@ -28,6 +28,17 @@ sudo firewall-cmd --reload
 firewall-cmd --permanent --zone=public --add-rich-rule='rule family="ipv4" source address="10.111.28.170/32"  port protocol="tcp" port="27017" accept'
 ```
 
+### List opened ports
+```
+firewall-cmd --list-ports
+```
+
+### List all rules
+```
+firewall-cmd --list-all
+```
+
+***
 
 ## Swapfile
 ```
@@ -40,18 +51,23 @@ sudo nano /etc/fstab
 mount -a
 ```
 
+***
+
 ## Create sudo user
 ```
 useradd username
 passwd username
 usermod -aG wheel username
 ```
+***
 
 ## Install jdk
 ```
 alternatives --install /usr/bin/java java /opt/jdk1.8.0_201/bin/java 2
 alternatives --config java
 ```
+
+***
 
 ## Add physical volume to LVM and extend logical volume
 ```
@@ -61,8 +77,9 @@ vgextend VG_OtherData /dev/sdb1
 lvextend -r -l +100%FREE /dev/VG_OtherData/var
 ```
 
+***
 
 ## Systemctl search
-````
+```
 systemctl list-unit-files | grep mongo
 ```
