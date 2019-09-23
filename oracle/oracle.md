@@ -21,7 +21,6 @@
 ## Statistic
   - [Gather statistic](sql/statistic/gatherStatisticForTable.sql)
 
-
  ## Locks
  - [Get locked objects](sql/locks/lockedObjects.sql)
 
@@ -33,6 +32,8 @@
  ## Database link
  - [Create database link](sql/dblink/createDbLinkBySID.sql)
 
+## Partition management
+ - [Move table partition](sql/partitions/movePartition.sql)
 
  ## Oracle Graphic tools
  ```

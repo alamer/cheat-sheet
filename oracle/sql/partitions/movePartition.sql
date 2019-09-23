@@ -1,0 +1,1 @@
+ALTER TABLE <TABLE_NAME> TRUNCATE PARTITION <partition_name> update indexes
