@@ -1,4 +1,5 @@
 # Python
 
 ## Freeze pip packages to file
-pip freeze > requirements.txt
+
+`pip freeze > requirements.txt`
