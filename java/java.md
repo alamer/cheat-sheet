@@ -14,4 +14,6 @@ echo | openssl s_client -connect server:port 2>&1 | sed -ne '/-BEGIN CERTIFICATE
 ./keytool.exe -keystore cacerts -importcert -alias alias -file yourcert.pem
 
 default password (changeit)
+
+run java with custom trustedstore -Djavax.net.debug=ssl -Djavax.net.ssl.trustStore=cacerts -Djavax.net.ssl.trustStorePassword=123456
 ```
