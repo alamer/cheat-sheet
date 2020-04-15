@@ -5,5 +5,5 @@
  - [SSH](ssh.md)
  - [CentOS](centOS.md)
  - [Nginx](nginx.md)
- - [Python](python.md)
+ - [Python](python/python.md)
  - [Java](java/java.md)
