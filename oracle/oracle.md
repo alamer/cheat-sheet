@@ -50,3 +50,6 @@ dbua - db upgrade assistant
 netca - listener create assistant
 netmgr - nmanaging tnsnames.ora
 ```
+
+## Scheduler
+- [Stop running job](sql/scheduler/stopRunningJob.sql)
