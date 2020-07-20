@@ -13,6 +13,7 @@
 - [Rebuild index or index partition](sql/index/rebuildIndex.sql)
 - [Rebuild all indexes and index partitions for table](sql/index/rebuildAllIndexesForTable.sql)
 - [Coalesce index to reduce index fragmentation (not release space back)](sql/index/coalesceInde.sql)
+- [Archive interval partitioned tables](sql/partitions/moveToArchiveTablespaceAndCompress.sql)
 
 ## Invalid objects
 
