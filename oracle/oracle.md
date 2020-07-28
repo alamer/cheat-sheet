@@ -2,6 +2,8 @@
 
 ## Tablespace size management
 
+- [Add datafile](sql/tablespace/addDatafile.sql)
+- [Move/Rename datafile](sql/tablespace/moveDatafile.sql)
 - [Table and index size](sql/tablespace/usedSpace.sql)
 - [Table fragmentation (reclaim space report)](sql/tablespace/reclaimSpaceReport.sql)
 - [Free space by tablespace](sql/tablespace/getFreeSpaceByTablespace.sql)

@@ -1,0 +1,4 @@
+sqlplus / as sysdba
+--if use pdb
+ALTER SESSION SET CONTAINER = pdborcl;
+ALTER DATABASE MOVE DATAFILE '<OLD_DATAFILE>' TO '<NEW_DATAFILE>';
