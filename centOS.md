@@ -96,3 +96,10 @@ lvextend -r -l +100%FREE /dev/VG_OtherData/var
 ```bash
 systemctl list-unit-files | grep mongo
 ```
+
+
+## Check filesystem for readonly
+
+```
+grep "[[:space:]]ro[[:space:],]" /proc/mounts 
+```
