@@ -11,3 +11,9 @@ ssh -L<local port>:localhost:<remoteport>  <user>@<remote_server>
 ```bash
 ssh-copy-id user@remote_server
 ```
+
+## Add password to ssh key
+
+```
+ssh-keygen -p -f ~/.ssh/id_rsa
+```
