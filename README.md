@@ -7,3 +7,4 @@
  - [Nginx](nginx.md)
  - [Python](python/python.md)
  - [Java](java/java.md)
+ - [Proxmox](proxmox/proxmox.md)
