@@ -57,3 +57,10 @@ netmgr - nmanaging tnsnames.ora
 
 ## Scheduler
 - [Stop running job](sql/scheduler/stopRunningJob.sql)
+
+
+## Clean audit files
+
+```bash
+    find /u01/app/oracle/admin/orcl/adump -type f -mtime +7 -name '*.aud' -exec rm -f {} \;
+```
