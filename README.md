@@ -8,3 +8,6 @@
  - [Python](python/python.md)
  - [Java](java/java.md)
  - [Proxmox](proxmox/proxmox.md)
+ - [Postgesql](pg/pg.md)
+ - [Clickhouse](clickhouse/click.md)
+ - [Caddyserver](caddyserver/caddy.md)
